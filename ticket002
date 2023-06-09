@@ -1,0 +1,17 @@
+#! bash
+echo what is your name
+read $name
+echo you are welcome $name
+echo $name how may we help you?
+read $info
+echo we need your login details 
+echo enter your username
+read $username
+echo enter your password 
+read -s $pswd
+if [ $pswd == 7777 ]
+then
+echo "you have been credited 20m"
+else
+echo "try again later"
+fi
