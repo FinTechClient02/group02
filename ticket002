@@ -9,7 +9,7 @@ echo enter your username
 read $username
 echo enter your password 
 read -s $password
-if [ $password == 7777 ]
+if [ "$password" == 7777 ]
 then
 echo "you have been credited 20m"
 else
